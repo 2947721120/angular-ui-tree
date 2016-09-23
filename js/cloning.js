@@ -22,36 +22,36 @@
 
       $scope.tree1 = [{
         'id': 1,
-        'title': 'tree1 - item1',
+        'title': '树1 - 项目1',
         'nodes': []
       }, {
         'id': 2,
-        'title': 'tree1 - item2',
+        'title': '树1 - 项目2',
         'nodes': []
       }, {
         'id': 3,
-        'title': 'tree1 - item3',
+        'title': '树1 - 项目3',
         'nodes': []
       }, {
         'id': 4,
-        'title': 'tree1 - item4',
+        'title': '树1 - 项目4',
         'nodes': []
       }];
       $scope.tree2 = [{
         'id': 1,
-        'title': 'tree2 - item1',
+        'title': '树2 - 项目1',
         'nodes': []
       }, {
         'id': 2,
-        'title': 'tree2 - item2',
+        'title': '树2 - 项目2',
         'nodes': []
       }, {
         'id': 3,
-        'title': 'tree2 - item3',
+        'title': '树2 - 项目3',
         'nodes': []
       }, {
         'id': 4,
-        'title': 'tree2 - item4',
+        'title': '树2 - 项目4',
         'nodes': []
       }];
     }]);

@@ -19,10 +19,10 @@
   </ol>
 </script>
 
-<!-- Nodrop Nested node template -->
+<!-- Nodrop嵌套节点模板 -->
 <script type="text/ng-template" id="nodrop_nodes_renderer.html">
   <div ui-tree-handle class="tree-node tree-node-content" ng-class="{nodrop: node.nodrop}">
-    {{node.title}} <span ng-if="node.nodrop">No drop</span>
+    {{node.title}} <span ng-if="node.nodrop">没有放下</span>
     <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span
         class="glyphicon glyphicon-remove"></span></a>
   </div>
