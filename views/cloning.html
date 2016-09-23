@@ -39,16 +39,16 @@
 
 <div class="row">
   <div class="col-sm-12">
-    <h3>Connected Trees Cloning</h3>
+    <h3>连树克隆</h3>
     <p>
-      The <code>data-clone-enabled</code> attribute can be added to a ui-tree element to allow nodes to be copied to another ui-tree rather than moved. Add <code>data-nodrop-enabled</code> to the source tree to leave the node in the tree while cloning.
+     在 <code>data-clone-enabled</code>属性可以被添加到一个UI树元件，以允许节点被复制到另一个UI树而不是移动。 加<code>data-nodrop-enabled</code> 到源代码树留在树中的节点，而克隆.
     </p>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-6">
-    <h3>Tree 1 - Source</h3>
+    <h3>树1 - 来源</h3>
     <div ui-tree id="tree1-root" data-clone-enabled="true" data-nodrop-enabled="true">
       <ol ui-tree-nodes="" ng-model="tree1">
         <li ng-repeat="node in tree1" ui-tree-node ng-include="'nodes_renderer1.html'"></li>
@@ -57,7 +57,7 @@
   </div>
 
   <div class="col-sm-6">
-    <h3>Tree 2 - Destination</h3>
+    <h3>树2 - 目的地</h3>
     <div ui-tree id="tree2-root" data-clone-enabled="true">
       <ol ui-tree-nodes="" ng-model="tree2">
         <li ng-repeat="node in tree2" ui-tree-node ng-include="'nodes_renderer2.html'"></li>
@@ -66,7 +66,7 @@
   </div>
 </div>
 
-<h3>Data binding</h3>
+<h3>数据绑定</h3>
 <div class="row">
   <div class="col-sm-6">
     <pre class="code">{{ tree1 | json }}</pre>
